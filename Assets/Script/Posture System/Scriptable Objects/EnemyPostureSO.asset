@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6d975987dbd564cba4d1aa0a9045a5, type: 3}
+  m_Name: EnemyPostureSO
+  m_EditorClassIdentifier: 
+  maxPosture: 100
+  recoveryRate: 2
+  recoveryDelay: 3
+  postureBreakRecoveryTime: 10
+  blockPostureDamage: 10
+  deflectPostureDamage: 5
+  deflectDamageToAttacker: 15
+  canPostureBreak: 1
+  hasDeathblow: 1

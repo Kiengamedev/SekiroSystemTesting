@@ -18,6 +18,8 @@ public class UICombatTest : MonoBehaviour
 
     private void Start()
     {
+        if(guardButton != null) guardButton.onClick.AddListener(() => Debug.Log("Block Button Clicked!"));
+
         guardButton.onClick.AddListener(TestGuard);
         deflectButton.onClick.AddListener(TestDeflect);
         finishButton.onClick.AddListener(ExecuteFinisher);

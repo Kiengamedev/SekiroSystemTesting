@@ -18,8 +18,8 @@ MonoBehaviour:
   postureBreakResetTime: 2
   autoRecoveryAfterBreakTime: 4
   guardPostureDamageMultiplier: 1
-  deflectPostureDamageMultiplier: 0.3
-  deflectEnemyPostureDamage: 20
-  deflectPlayerPostureDamage: 5
+  deflectPostureDamageMultiplier: 0.5
+  deflectEnemyPostureDamage: 10
+  deflectPlayerPostureDamage: 15
   enablePassiveRecovery: 1
   passiveRecoveryRate: 5

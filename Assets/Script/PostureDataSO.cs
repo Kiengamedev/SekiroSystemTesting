@@ -14,9 +14,9 @@ public class PostureData : ScriptableObject
 
     [Header("Guard & Deflect Settings")]
     public float guardPostureDamageMultiplier = 1f; // Posture damage multiplier when blocking
-    public float deflectPostureDamageMultiplier = 0.3f; // Reduced Posture damage when deflecting
-    public float deflectEnemyPostureDamage = 20f; // Posture damage to enemy on successful deflect
-    public float deflectPlayerPostureDamage = 5f; // Posture damage taken when failed deflect
+    public float deflectPostureDamageMultiplier = 0.5f; // Reduced Posture damage when deflecting
+    public float deflectEnemyPostureDamage = 10f; // Posture damage to enemy on successful deflect
+    public float deflectPlayerPostureDamage = 15f; // Posture damage taken when failed deflect
 
     [Header("Posture Recovery Settings")]
     public bool enablePassiveRecovery = true; // Enable or disable passive Posture recovery
